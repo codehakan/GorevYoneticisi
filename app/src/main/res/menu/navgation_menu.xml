@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/icon_homepage_new"
+        android:title="Ana Sayfa"
+        app:showAsAction="never" /> -->
+
+    <item
+        android:id="@+id/navigation_add"
+        android:icon="@drawable/icon_add"
+        android:title="Ekle"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/navigation_about"
+        android:title="Hakkında" />
+
+
+</menu>

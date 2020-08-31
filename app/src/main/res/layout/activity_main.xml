@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F4F7"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_aylikplan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/circular"
+            android:background="@drawable/bg_aylik"
+            android:text="Aylık Plan\n\n0"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btn_haftalikplan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/circular"
+            android:background="@drawable/bg_haftalik"
+            android:text="Haftalık Plan\n\n0"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btn_gunlukplan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/circular"
+            android:background="@drawable/bg_gunluk"
+            android:text="Günlük Plan\n\n0"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/list_view_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

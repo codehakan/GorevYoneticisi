@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F4F7"
+    tools:context=".add">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/txt_subject"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:layout_margin="25dp"
+                android:background="@drawable/single_bg"
+                android:hint="Başlık giriniz."
+                android:paddingLeft="20dp" />
+
+            <EditText
+                android:id="@+id/txt_content"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/single_bg"
+                android:hint="Detayları buraya yazabilirsiniz."
+                android:paddingLeft="20dp"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:scrollbars="vertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/shape_background"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="16dp"
+                    android:text="Zaman \nSeçiniz:"/>
+                <Spinner
+                    android:id="@+id/spin_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="54dp"
+
+                    android:background="@drawable/single_bg" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:background="@drawable/button_selector_ok"
+                android:text="Ekle" />
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/button_selector_del"
+                android:text="İPTAL" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

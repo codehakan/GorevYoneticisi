@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".splash">
+
+    <LinearLayout
+        android:id="@+id/linear_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:gravity="center_horizontal"
+            android:text="PLANLARINIZI NOT EDİN"
+            android:textColor="#fff"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="335dp"
+            android:src="@drawable/logo" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/linear_1"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_margin="25dp"
+            android:background="@drawable/single_bg"
+            android:text="Hakan AKKAYA"
+            android:textColor="#55C1F6"
+            android:textSize="28dp" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
+            android:text="Uygulama başlatılıyor..."
+            android:textColor="#55C1F6"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+</LinearLayout>

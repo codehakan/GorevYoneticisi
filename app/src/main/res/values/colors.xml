@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF9E80</color> <!-- bu ise saydamlaştırılmış rengin direkt renk kodu -->
+    <color name="colorPrimaryDark">#FF9E80</color>
+    <color name="colorAccent">#EA80FC</color>
+    <color name="colorWhite">#3303DAC5</color>
+    <color name="selected">#a8cf45</color>
+    <color name="unselected">#ff8cae3b</color>
+</resources>
