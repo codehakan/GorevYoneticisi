@@ -24,6 +24,7 @@ Piton Ar-Ge yazılım şirketinin isteği üzerine, şahsım adına iş başvuru
 - Düzenle
 - butonu, farklı bir activity'e geçiş yapıldığında bir önceki activityde ki verileri taşır.
 
+# görseller
 
 ![](Uygulama%20Resimleri/GorevYoneticisi_resim_1.png)
  ---
